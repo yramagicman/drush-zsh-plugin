@@ -1,5 +1,5 @@
 alias dca="drush cc all"
-alias ddis="drush ds"
+alias dis="drush dis"
 alias ddl="drush dl"
 alias den="drush en"
 alias dls="drush pml"
