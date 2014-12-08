@@ -12,4 +12,10 @@ alias dformat="drush coder-format"
 alias drev="drush coder-review"
 alias dmg="drush make-generate"
 alias dmake="drush make"
-alias dunin= "drush dis; sudo drush pmu"
+function dunin(){
+    sudo -v
+    drush dis $1 -y
+    sudo drush pmu $1 -y
+    sudo chown -v jonathan ~/.drush/cache/*
+    ls -l ~/.drush/cache/
+}
