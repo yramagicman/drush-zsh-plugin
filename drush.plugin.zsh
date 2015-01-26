@@ -1,7 +1,7 @@
 alias dca="drush cc all"
 alias dis="drush dis"
 alias ddl="drush dl"
-alias den="drush en"
+alias den="drush en -y"
 alias dls="drush pml"
 alias dre="drush dre"
 alias dlse="drush pml | grep -i enabled"
